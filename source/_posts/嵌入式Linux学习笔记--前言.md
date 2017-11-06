@@ -2,26 +2,26 @@
 title: 嵌入式学习笔记--前言
 date: 2017-09-08 18:36:26
 categories: 嵌入式
-tags: [嵌入式,学习笔记]
+tags: [嵌入式,学习笔记,嵌入式硬件平台]
 comments: true
 
 ---
-## 写在前面的话
-动手写博客前，我一直在思考：博客……写点啥，为了啥，有意义么。第一次写博客，难免有些紧张和忐忑。  
+# 写在前面的话
+动手写博客前，我一直在思考：博客……写点啥，为了啥，有意义么。第一次写博客，难免有些紧张和忐忑。
     
 我从2017年2月到9月系统的学习了嵌入式Linux的相关知识，包括嵌入式Linux应用层和底层开发等。另外，从去年9月工作以来，我在工作项目中也接触了几款嵌入式设备。因此，我希望借写博客开启嵌入式小白的学习成长之旅。<!-- more -->
 
-对于开篇的问题，有以下几点说明：    
+对于开篇的问题，有以下几点说明： 
 
-	1. 总结的首要目的是梳理知识点，巩固加深理解，熟练掌握开发技能。  
+	1. 总结的首要目的是梳理知识点，巩固加深理解，熟练掌握开发技能。
 	  
-	2. 总结的内容为嵌入式Linux重点知识整理，掺杂日常实践中的问题分析。    
+	2. 总结的内容为嵌入式Linux重点知识整理，掺杂日常实践中的问题分析。 
 	
-	3. 最后，博客不仅分享的是学习资料，也是笔者的学习心得，而后者是不可复制的。我想，这就是最大的意义所在。此外，若这些短文能够带给您一点帮助或启发，那将是我莫大的荣幸。  
+	3. 最后，博客不仅分享的是学习资料，也是笔者的学习心得，而后者是不可复制的。我想，这就是最大的意义所在。此外，若这些短文能够带给您一点帮助或启发，那将是我莫大的荣幸。
 
 
-## 嵌入式平台
-### [树莓派3 B][1]
+# 嵌入式平台
+## [树莓派3 B][1]
 - SoC： BCM2837
 
 - CPU： **ARM Cortex-A53** 1.2GHz 四核
@@ -35,7 +35,7 @@ comments: true
 
 - OS： **Debian GNU/Linux**、Fedora、Arch Linux、RISC OS、Windows10、Snappy Ubuntu Core
 
-### [JS9331开发板][2]
+## [JS9331开发板][2]
 - SoC： Atheros AR9331
 
 - CPU： AR9331 **MIPS 24K** 400MHz
@@ -48,7 +48,7 @@ comments: true
   
 - OS： **openwrt**
 
-### [Intel NUC DE3815TYKHE套件][3]
+## [Intel NUC DE3815TYKHE套件][3]
 - CPU：**Intel x86** Atom E3815 1.4GHz 单核
 
 - 内存：单条SO-DIMM内存插槽(最大容量8GB) DDR3
@@ -61,14 +61,14 @@ comments: true
 
 - OS：**Intel IoT Gateway Software Suite**、Ubuntu 16.04 LTS、Wind River Pulsar Linux
 
-### [IOT4412/FS4412开发板][4]
-- SOC： 三星Exynos4412  
+## [IOT4412/FS4412开发板][4]
+- SOC： 三星Exynos4412 
 
 - CPU： **ARM Cortex-A9** 1.4GHz 四核
 
-- 内存： 1GB DDR3   
+- 内存： 1GB DDR3 
 
-- 外存： 4GB eMMC  
+- 外存： 4GB eMMC
 
 - 外设： 20针WiFi接口、microSD、USB2.0\*2、USB OTG、10/100网口、音频插孔、串口\*2、key\*5、20PIN扩展GPIO、20针camera接口、HDMI、LVDS\_LCD\*2、RGB\_LCD
 
@@ -77,7 +77,7 @@ comments: true
 *注：此处以IOT4412说明，FS4412与之类似，外设稍有差别*
 
 
-### 附：uname -a命令结果  
+## 附：uname -a命令结果  
 	- 树莓派3 B：
 		Linux raspberrypi 4.9.35-v7+ #1014 SMP Fri Jun 30 14:47:43 BST 2017 armv7l GNU/Linux 
  
