@@ -349,7 +349,7 @@ Makefile说明：
 说明：
 
 1. make install、make clean、make disk等命令可以使用。
-2. 在confiure.ac Makefile.am文件中填写源文件相关的内容，不需要填写依赖关系等，可以自动生成。
+2. 在confiure.ac、Makefile.am文件中填写源文件相关的内容，不需要填写依赖关系等，可以自动生成。
 
 *参考文档：*
 *[Linux c 开发 - Autotools使用详细解读][12]*
@@ -386,7 +386,7 @@ Makefile说明：
 # 个人观点
 1. 本篇文章的Makefile主要参考文档为[跟我一起写makefile][21]。
 2. 写Makefile时，首先是思考需要表达什么样的依赖关系。而不是先思考如何写规则命令。
-3. 对于makefile的掌握程度，要会写简单的makefile，用于自己项目管理。要会读懂别人的makefile，要会根据需要做相应修改。对于一些细节知识仅作了解，理解即可，真正使用时再做分析。
+3. 对于Makefile的掌握程度，要会写简单的Makefile，用于自己项目管理。要会读懂别人的Makefile，要会根据需要做相应修改。对于一些细节知识仅作了解，理解即可，真正使用时再做分析。
 4. 在实践中，由于项目并不大，因此一般自己编写Makefile文件，可使用一份Makefile模板，进行细微修改即可，而不是用cmake或autotools工具。autotools目前只做了解。
 5. 目前cmake工具的使用主要用在开源库的使用中，因此需要理解其含义和使用方法。待对cmake有足够了解后，可以对开源库的CMakeLists.txt根据自己需要进行修改。
 

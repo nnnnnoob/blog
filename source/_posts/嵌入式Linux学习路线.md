@@ -16,7 +16,7 @@ comments: true
 
 	- 数据结构
 ## 嵌入式Linux应用层开发
-	- 文件I/O与系统I/O
+	- 文件I/O与标准I/O
 
 	- 进程和线程
 
